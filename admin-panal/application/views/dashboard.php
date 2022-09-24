@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Dashboard</h1>
+              <h1 class="m-0">gallary</h1>
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -20,7 +20,7 @@
             <div class="small-box bg-info">
               <div class="inner">
                 <h3 id="total_emp"></h3>
-                <p>Employees</p>
+                <p>image</p>
               </div>
               <a class="small-box-footer"><i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -31,7 +31,7 @@
             <div class="small-box bg-success">
               <div class="inner">
                 <h3 id="total_dept"></h3>
-                <p>Departments</p>
+                <p>contect</p>
               </div>
               <a class="small-box-footer"><i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -42,7 +42,7 @@
             <div class="small-box bg-warning">
               <div class="inner">
                 <h3 id="total_role"></h3>
-                <p>Roles</p>
+                <p>users</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -54,8 +54,8 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>100%</h3>
-                <p>Efforts</p>
+                <h3>all</h3>
+                <p>catagory</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>

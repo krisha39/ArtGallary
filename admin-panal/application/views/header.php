@@ -123,8 +123,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4" >
     <!-- Brand Logo -->
     <a class="brand-link" id="logo">
-      <img src="dist/img/logo2.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .9">
-      <span class="brand-text font-weight-light">Employees</span>
+      <img src="dist\img\folder.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .9">
+      <span class="brand-text font-weight-light">gallary</span>
     </a>
 
     <!-- Sidebar -->
@@ -138,7 +138,7 @@
             <a class="nav-link" id="show_dashboard" >
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Catagory
               </p>
             </a>
           </li>
@@ -146,7 +146,7 @@
             <a class="nav-link" id="show_employee" >
               <i class="nav-icon fas fa-user-alt"></i>
               <p>
-                Employee
+                image
               </p>
             </a>
           </li>
@@ -154,7 +154,7 @@
             <a class="nav-link" id="show_role">
               <i class="nav-icon fa fa-tag"></i>
               <p>
-                Role
+                contect
               </p>
             </a>
           </li>
@@ -162,7 +162,7 @@
             <a class="nav-link" id="show_dept">
               <i class="nav-icon fas fa-building"></i>
               <p>
-                Department
+                user
               </p>
             </a>
           </li>

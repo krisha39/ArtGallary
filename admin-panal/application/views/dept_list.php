@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>DataTables</h1>
+            <h1>UserTables</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -17,19 +17,17 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Department DataTable with minimal features & hover style</h3>
+                <h3 class="card-title">login DataTable with minimal features & hover style</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
                 <table class="table table-bordered table-hover">
                   <thead>
                     <tr>
-                        <th>Sr No.</th>
-                        <th>Employee ID</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Department</th>
-                        <th>Role</th>
+                        <th>Id</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Phone nummber</th>
                     </tr>
                   </thead>
                   <tbody id="tbody-3">

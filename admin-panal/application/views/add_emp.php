@@ -5,39 +5,31 @@
             <div class="col-md-12">
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h3 class="card-title">Add Employee</h3>
+                        <h3 class="card-title">Add catagory</h3>
                     </div>
                     <!-- form start -->
                     <div class="card-body">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">First Name</label>
-                            <input type="text" class="form-control" id="f_name" placeholder="Enter First Name">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Tittle</label>
+                            <input type="text" class="form-control" id="manager" placeholder="Tittle">
+                        </div>
+                            <label for="exampleInputEmail1">Image</label>
+                            <input type="text" class="form-control" id="f_name" placeholder="Image">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Last Name</label>
-                            <input type="text" class="form-control" id="l_name" placeholder="Enter Last Name">
+                            <label for="exampleInputEmail1">Description</label>
+                            <input type="text" class="form-control" id="l_name" placeholder="Description">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Department</label>
-                            <input type="text" class="form-control" id="dept" placeholder="Enter Department Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Job Title</label>
-                            <input type="text" class="form-control" id="job_title" placeholder="Enter Job Title">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Role</label>
-                            <input type="text" class="form-control" id="role" placeholder="Enter Role">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Manager</label>
-                            <input type="text" class="form-control" id="manager" placeholder="Enter Manager Name">
+                            <label for="exampleInputEmail1">Gallary</label>
+                            <input type="box" class="form-control" id="dept" placeholder="Gallary">
                         </div>
                     </div>
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <button type="submit" id="add_emp_details" class="btn btn-primary">Submit</button>
+                        <button type="submit" id="add_emp_details" class="btn btn-primary">Add</button>
                     </div>
                 </div>
             </div>
