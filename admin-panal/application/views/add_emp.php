@@ -21,19 +21,29 @@
                             <label for="exampleInputEmail1">Description</label>
                             <input type="text" class="form-control" id="l_name" placeholder="Description">
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Gallary</label>
-                            <input type="box" class="form-control" id="dept" placeholder="Gallary">
+                        <label for="exampleInputEmail1">Gallary</label>
+                        <div class="box"  style="width: 150px;
+                                                height: 150px;
+                                                border: 1px solid gray;
+                                                background:black;
+                                                position:relative">
+                        <img src="dist\img\gallary.jpg" id="imagePreview" style="position:absolute;
+                        width:100%;
+                        height: 100%;">
+                        </a>
+                        
                         </div>
                     </div>
+                    
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <button type="submit" id="add_emp_details" class="btn btn-primary">Add</button>
+                        <button type="submit" id="add_emp_details" class="btn btn-primary"> Add </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+                    
+                    
