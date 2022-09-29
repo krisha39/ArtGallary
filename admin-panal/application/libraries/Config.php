@@ -11,4 +11,6 @@ define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'employee-management');
+
+// mysqli_connect("localhost","root","","art_gallary")
 ?>

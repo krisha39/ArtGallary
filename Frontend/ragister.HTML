@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,43 +14,44 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/ekko-lightbox.js"></script>
 	<style type="text/css">
-		
-			
-		body{
+		body {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
-			background-repeat: no-repeat; 
+			background-repeat: no-repeat;
 			color: black;
 		}
-		section{
+
+		section {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			min-height: 100px;
 		}
-		.center-slide{
-			background:#0000ff80;
+
+		.center-slide {
+			background: #0000ff80;
 			background-position: center;
-  			padding:20px;
-  			text-align:center;
-       		position: relative;
+			padding: 20px;
+			text-align: center;
+			position: relative;
 			position: relative;
 			padding: 60px;
 			width: 350px;
-			height: 450px;
+			/* height: 300px; */
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			background: rgba(300,300,300,0.3);
+			background: rgba(300, 300, 300, 0.3);
 			border-radius: 6px;
-			box-shadow: 0 5px 35px rgba(0,0,0,0.2);
-    		align-items: center; 
-    		top: 50%;
-    		left: 50%;
-    		transform: translate(-50%, -50%);
-   		}
-		.center-slied .form .inputbox input{
+			box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+			align-items: center;
+			/* top: 50%; */
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.center-slied .form .inputbox input {
 			width: 200px;
 			outline: none;
 			border: 1px solid rgba(255, 255, 255, 0.2);
@@ -59,12 +61,14 @@
 			font-size: 16px;
 			font-weight: 300;
 			box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.2);
-			cursor: -webkit-grab; cursor: grab;
+			cursor: -webkit-grab;
+			cursor: grab;
 		}
-		.center-slied .form .inputbox img{
+
+		.center-slied .form .inputbox img {
 			position: absolute;
 			top: 37px;
-			left: 1px; 
+			left: 1px;
 			transform: scale(0.7);
 			position: relative;
 			padding: 10px;
@@ -74,71 +78,76 @@
 		}
 
 
-		button{
-		  position: relative;
-		  text-align: center;
-		  width: 200px;
-		  display: inline-block;
-		  padding: 12px 36px;
-		  margin: 10px 0;
-		  color: black;
-		  font-size: 18px;
-		  border-radius: 100px;
-		  cursor: -webkit-grab; cursor: grab;
-		  transition: 1.5s;
-		  border: 5px blue;
-		  background: linear-gradient( slateblue,cadetblue);
+		button {
+			position: relative;
+			text-align: center;
+			width: 200px;
+			display: inline-block;
+			padding: 12px 36px;
+			margin: 10px 0;
+			color: black;
+			font-size: 18px;
+			border-radius: 100px;
+			cursor: -webkit-grab;
+			cursor: grab;
+			cursor: pointer;
+			transition: 1.5s;
+			border: 5px blue;
+			background: linear-gradient(slateblue, cadetblue);
 		}
-		button:hover{
-				box-shadow: 0 5px 50px cadetblue inset,0 5px 50px cadetblue,
-							0 5px 50px cadetblue inset,0 5px 50px cadetblue;
+
+		button:hover {
+			box-shadow: 0 5px 50px cadetblue inset, 0 5px 50px cadetblue,
+				0 5px 50px cadetblue inset, 0 5px 50px cadetblue;
 		}
 	</style>
-  </head>
+</head>
+
 <body>
 
 
-<section id="header" class="clearfix">
-	<nav class="navbar navbar-default">
-        <div class="container clearfix">
-		    
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header clearfix page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-				<a href="index.html" class="navbar-brand">THE ART GALLARY</a>
-            </div>
+	<section id="header" class="clearfix">
+		<nav class="navbar navbar-default">
+			<div class="container clearfix">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="tag_menu_1 active_tab" href="index.html">HOMEPAGE</a>
-                    </li>
-                 
-                 	<li>
-                        <a class="tag_menu" href="JOINUS.html">JOIN US</a>
-                    </li>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header clearfix page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">THE ART GALLARY</a>
+				</div>
 
-					<li>
-                        <a class="tag_menu" href="collection.html">CATEGORIES</a>
-                    </li>
-					
-                    
-					<li>
-                        <a class="tag_menu" href="gallery.html">GALLERY</a>
-                    </li>
-					
-					<li>
-                        <a class="tag_menu" href="contact.html">CONTACT US</a>
-                    </li>
-					
-					
-				<!--
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="tag_menu_1 active_tab" href="index.html">HOMEPAGE</a>
+						</li>
+
+						<li>
+							<a class="tag_menu" href="JOINUS.html">JOIN US</a>
+						</li>
+
+						<li>
+							<a class="tag_menu" href="collection.html">CATEGORIES</a>
+						</li>
+
+
+						<li>
+							<a class="tag_menu" href="gallery.html">GALLERY</a>
+						</li>
+
+						<li>
+							<a class="tag_menu" href="contact.html">CONTACT US</a>
+						</li>
+
+
+						<!--
 					<li class="dropdown"><a class="tag_menu" href="#" data-toggle="dropdown"><span class="fa fa-search"></span></a>
 							<ul class="dropdown-menu drop_1" style="min-width: 300px;">
 								<li>
@@ -168,92 +177,93 @@
 							<li><a href="contact.html">CONTACT</a></li>
 						  </ul>
 						</li>-->
-					
-                </ul>
-				 
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-</section>
 
-<section id="center">
-  <div class="clearfix">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="img/1_home.jpg" alt="First slide">
-				<div class="carousel-caption">
-					
-				</div>
-			</div>
-			<div class="item">
-				<img src="img/2_home.jpg" alt="Second slide">
-				<div class="carousel-caption">
-					
-				</div>
-			</div>
-			<div class="item">
-				<img src="img/3_home.jpg" alt="Third slide">
-				<div class="carousel-caption">
-					
-				</div>
-			</div>
-		</div>
+					</ul>
 
-	<br><br><br><br>
-	<section>
-		<div class="main-text hidden-xs">
-		<div class="col-md-12">
-		   <div class="col-sm-4">
-		     <div class=" center_slide">
-				<!--<div class="box">-->
-			<div class="form">
-				<h2>RAGISTER</h2>
-			<form>
-				<div class="inputbox">
-					<!--<img src="img/phone-symbol-2.png">-->	
-					<input type="text"name="name" placeholder="username"><br><br>
 				</div>
-				<div class="inputbox">
-					<!--<img src="img/email.png">-->
-					<input type="email" name="email" placeholder="E-mail"><br><br>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+	</section>
+
+	<section id="center">
+		<div class="clearfix">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/1_home.jpg" alt="First slide">
+						<div class="carousel-caption">
+
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/2_home.jpg" alt="Second slide">
+						<div class="carousel-caption">
+
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/3_home.jpg" alt="Third slide">
+						<div class="carousel-caption">
+
+						</div>
+					</div>
 				</div>
-				<div class="inputbox">
-					<!--<img src="img/lock.png">-->
-					<input type="password" name="password" placeholder="password">
-					<br><br>
-				</div>
-				<div class="inputbox">
-					<!--<img src="img/lock.png">-->
-					<input type="number" name="number" placeholder="number">
-					<br><br>
-				</div>
-				<div class="remeber">
-				<input type="checkbox" name="remeber">
-				<label for="remeber">REMEMBER ME</label><br>
-				</div>
-				<a href="/artgallary/ArtGallary/Frontend/JOINUS.html">JOIN US</a><br>
-				<button>RAGISTER</button>
-				</div>
+
+				<br><br><br><br>
+				<section>
+					<div class="main-text hidden-xs">
+						<div class="col-md-12">
+							<div class="col-sm-4">
+								<div class=" center_slide">
+									<!--<div class="box">-->
+									<div class="form">
+										<h2>RAGISTER</h2>
+										<form>
+											<div class="inputbox">
+												<!--<img src="img/phone-symbol-2.png">-->
+												<input style="color: #000; border-radius: 8px;" type="text" name="name"
+													placeholder="username"><br><br>
+											</div>
+											<div class="inputbox">
+												<!--<img src="img/email.png">-->
+												<input style="color: #000; border-radius: 8px;" type="email" name="email"
+													placeholder="E-mail"><br><br>
+											</div>
+											<div class="inputbox">
+												<!--<img src="img/lock.png">-->
+												<input style="color: #000; border-radius: 8px;" type="password" name="password"
+													placeholder="password">
+												<br><br>
+											</div>
+											<div class="inputbox">
+												<!--<img src="img/lock.png">-->
+												<input style="color: #000; border-radius: 8px;" type="number" name="number"
+													placeholder="number">
+												<br><br>
+											</div>
+											<a style="color: #fff;" href="C:\xampp\htdocs\artgallary\ArtGallary\Frontend\JOINUS.HTML">JOIN US</a><br>
+											<button>RAGISTER</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="col-sm-3"></div>
+						<div class="col-sm-5"> -->
+
+						</div>
+
+					</div>
+			</div>
 		</div>
-			 </div>
-		   </div>
-		   <div class="col-sm-3"></div>
-		   <div class="col-sm-5">
-		     
-		   </div>
-		
-		</div>
-	</div>
- </div>
 	</section>
 
 </body>
+
 </html>
